@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from incognitothemes.com/chaos/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Aug 2018 04:57:25 GMT -->
+<!-- Mirrored from incognitothemes.com/chaos/home-design-lab.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Aug 2018 05:06:02 GMT -->
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Chaos is One Page Creative HTML5 Template</title>
 <meta name="description" content="Onepage Parallax HTML5 Template" />
-<meta name="keywords" content="onepage, parallax, chaos, creative, hexagon, gradient, portfolio" />
+<meta name="keywords" content="design lab, chaos, business, user interface" />
 <link rel="shortcut icon" href="assets/images/favicon.ico">
 <link rel="stylesheet" href="assets/css/master.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
@@ -28,11 +28,24 @@
   
   <!--=== Header Start ===-->
   <nav class="navbar navbar-default navbar-fixed navbar-transparent white bootsnav on no-full">
-  	
+  	<!--=== Start Top Search ===-->
+    <div class="fullscreen-search-overlay" id="search-overlay"> <a href="#" class="fullscreen-close" id="fullscreen-close-button"><i class="mdi mdi-close"></i></a>
+      <div id="fullscreen-search-wrapper">
+        <form method="get" id="fullscreen-searchform">
+          <input type="text" value="" placeholder="Type and hit Enter..." id="fullscreen-search-input" class="search-bar-top">
+          <i class="fullscreen-search-icon mdi mdi-magnify">
+          <input value="" type="submit">
+          </i>
+        </form>
+      </div>
+    </div>
+    <!--=== End Top Search ===-->
+    
     <div class="container"> 
       <!--=== Start Atribute Navigation ===-->
       <div class="attr-nav">
         <ul>
+        	<li class="search"><a href="#" id="search-button"><i class="mdi mdi-magnify"></i></a></li>
         	<li class="side-menu"><a href="#"><i class="mdi mdi-menu"></i></a></li>
         </ul>
       </div>
@@ -41,7 +54,7 @@
       <!--=== Start Header Navigation ===-->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"> <i class="mdi mdi-menu"></i> </button>
-        <div class="logo"> <a href="index-2.html"> <img class="logo logo-display" src="assets/images/logo-white.png" alt=""> <img class="logo logo-scrolled" src="assets/images/logo-black.png" alt=""> </a> </div>
+        <div class="logo logo-sm"> <a href="index-2.html"> <img class="logo logo-display" src="assets/images/logo-white-sm.png" alt=""> <img class="logo logo-scrolled" src="assets/images/logo-black-sm.png" alt=""> </a> </div>
       </div>
       <!--=== End Header Navigation ===--> 
       
@@ -103,74 +116,79 @@
   </nav>
   <!--=== Header End ===--> 
   
-  <!--=== Hero Slider Start ===-->
+  <!--=== Hero Style Two Start ===-->
   
-  <section class="home-slider">
-    <div class="default-slider slick">
-      <div class="slide">
-        <div class="slide-img parallax-effect" style="background:url(assets/images/slides/home-bg-1.jpg) center center / cover scroll no-repeat;"></div>
-        <div class="hero-text-wrap">
-          <div class="hero-text">
+  <section class="hero-style-two pt-0 pb-0">
+  	
+  				<div class="rounded-triangle rd-imgs">
+  					<div class="hero-text-wrap">
+          <div class="hero-text text-left">
             <div class="container">
               <div class="white-color">
                 <h3 class="upper-case">Digital Production &</h3>
                 <h1 class="upper-case font-600">.Design Lab</h1>
                 <h3 class="upper-case">A <span class="font-600">Chaos</span> Web <span class="font-800">Agency.</span></h3>
-                <p class="text-left mt-30"><a class="btn btn-gradient btn-md">Get Started</a> </p>
+                <p class="text-left mt-50">
+                	<a class="btn btn-pink btn-md btn-animated-none">Start a Project</a> 
+                	<div class="call-us">
+                		<h5>Call Us (0123) 456 - 789</h5>
+                		<h6>For any query or concern</h6>
+                	</div>
+                </p>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="slide">
-        <div class="slide-img parallax-effect" style="background:url(assets/images/slides/home-bg-2.jpg) center center / cover scroll no-repeat;"></div>
-        <div class="hero-text-wrap">
-          <div class="hero-text white-color">
-            <div class="container">
-              <div class="white-color">
-                <h3 class="upper-case">Design</h3>
-                <h1 class="upper-case font-600">Studio</h1>
-                <h3 class="upper-case">A <span class="font-600">Chaos</span> Web <span class="font-800">Agency.</span></h3>
-                <p class="text-left mt-30"><a class="btn btn-gradient btn-md">Get Started</a> </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  				</div>
+  			
   </section>
   
-  <!--=== Hero Slider End ===--> 
+  <!--=== Hero Sytle Two End ===--> 
   
   <!--=== Welcome Start ===-->
   <section>
   	<div class="container">
   		<div class="row">
-  			<div class="col-md-6">
-  				<div class="intro-img"><img class="img-responsive" src="assets/images/intro-img.png" alt=""/></div>
+  			<div class="col-md-12 heading-style-one box-title-two text-center">
+  				<h6 class="yellow-color text-uppercase">About Agency</h6>
+  				<h2><span class="font-700">We are an independent
+				strategic <br>advertising 
+				agency.</span></h2>
   			</div>
-  			<div class="col-md-6 heading-style-one">
-  				<hr class="gradient-bg left-line">
-  				<h2><span class="font-700">We’re Startup</span><br>Creative Agency</h2>
-  				<p class="mt-30">If you want to have the most success when you are creating a homepage for
- your site, it is a good idea.</p>
-  				<div class="row mt-40">
-  					<div class="col-md-6 feature-box text-center mb-20 col-xs-12 col-sm-6"> 
-  						<i class="bulb-icon img-icon"></i>
-					  	<h3>Creative Design</h3>
-					</div>
-					<div class="col-md-6 feature-box text-center mb-20 col-xs-12 col-sm-6"> 
-  					<i class="diamond-icon img-icon"></i>
-					  <h3>Development</h3>
-					</div>
-					<div class="col-md-6 feature-box text-center mb-20 col-xs-12 col-sm-6"> 
-  					<i class="magic-icon img-icon"></i>
-					  <h3>Implementation</h3>
-					</div>
-					<div class="col-md-6 feature-box text-center mb-20 col-xs-12 col-sm-6"> 
-  					<i class="connect-icon img-icon"></i>
-					  <h3>Customer Support</h3>
-					</div>
+  		</div>
+  		
+  		<div class="row mt-100">
+  			<div class="col-md-4">
+  				<div class="feature-box text-center feature-box-rounded mb-20">
+  					<i class="bulb-yellow-icon img-icon"></i>
+  					<h3>Creative Design</h3>
+  					<p>Integer purus ipsum, auctor vitae posuere 
+					et, consectetur ac leo.</p>
+					<p class="mt-30">
+						<a class="btn btn-yellow btn-sm btn-circle">Read More</a>
+					</p>
+  				</div>
+  			</div>
+  			<div class="col-md-4">
+  				<div class="feature-box text-center feature-box-rounded mb-20">
+  					<i class="diamond-pink-icon img-icon"></i>
+  					<h3>Development</h3>
+  					<p>Integer purus ipsum, auctor vitae posuere 
+					et, consectetur ac leo.</p>
+					<p class="mt-30">
+						<a class="btn btn-pink btn-sm btn-circle">Read More</a>
+					</p>
+  				</div>
+  			</div>
+  			<div class="col-md-4">
+  				<div class="feature-box text-center feature-box-rounded">
+  					<i class="magic-purple-icon img-icon"></i>
+  					<h3>Implementation</h3>
+  					<p>Integer purus ipsum, auctor vitae posuere 
+					et, consectetur ac leo.</p>
+					<p class="mt-30">
+						<a class="btn btn-purple btn-sm btn-circle">Read More</a>
+					</p>
   				</div>
   			</div>
   		</div>
@@ -179,334 +197,181 @@
   <!--=== Welcome End ===--> 
 
   
-  <!--=== Counter Start ===-->
-  <section class="parallax-bg fixed-bg pt-70 pb-70" data-stellar-background-ratio="0.2" style="background-image: url(assets/images/background/pattern-parallax.jpg);">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 col-sm-6">
-          <div class="counter-wrap">
-            <h2><span class="counter">114</span></h2>
-            <h3>Our Projects</h3>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="counter-wrap">
-            <h2><span class="counter">350</span></h2>
-            <h3>Happy Clients</h3>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="counter-wrap">
-            <h2><span class="counter">574</span></h2>
-            <h3>Cups of Coffee</h3>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="counter-wrap">
-            <h2><span class="counter">1000</span></h2>
-            <h3>Facebook Likes</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--=== Counter End ===--> 
-  
   <!--=== Portfolio Start ===-->
-  <section class="pb-0 white-bg">
+  <section class="skew-bg pt-0">
+   
     <div class="container">
-      <div class="row">
-        <div class="col-md-4 heading-style-one col-sm-4 col-xs-12">
-        	<hr class="gradient-bg left-line">
-			<h2 class="font-700">Our Portfolio</h2>
+		<div class="row">
+     		<div class="col-md-12 heading-style-one text-left">
+  				<h6 class="pink-color text-uppercase">What We Do</h6>
+                <h2><span class="font-700">Our Best Work</span></h2>
+  			</div>
         </div>
-        <div class="col-md-8 col-sm-8 col-xs-12">
-          <div id="chaos-gallery-filter" class="cbp-l-filters-alignRight mt-40">
-            <div data-filter="*" class="cbp-filter-item-active cbp-filter-item"> All </div>
-            <div data-filter=".graphic" class="cbp-filter-item"> Graphics Design </div>
-            <div data-filter=".web" class="cbp-filter-item"> Web Design </div>
-            <div data-filter=".wordpress" class="cbp-filter-item"> Wordpress </div>
-            <div data-filter=".photography" class="cbp-filter-item"> Photography </div>
-          </div>
+      <div class="row mt-100">
+        <div class="col-md-6 col-sm-6">
+        	<div class="row single-portfolio pt-60 pb-60">
+        		<div class="col-md-4 col-sm-4">
+        			<h1>01</h1>
+        		</div>
+        		<div class="col-md-8 col-sm-8 text-right">
+        			<div class="single-portfolio-title-right">
+       				  <h2>Your Profile Title</h2>
+        			</div>
+       			  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus nibh. Donec facilisis id quam quis tincidunt. Aenean eget mattis ligula. Ut dignissim justo sed neque eleifend, eu fringilla magna facilisis.</p>
+				</div>
+        	</div>
         </div>
+        <div class="col-md-6 col-sm-6 single-portfolio">
+   	    	<img class="img-responsive" src="assets/images/portfolio/grid/16.jpg" alt="creative-img-01"/> 
+   	    </div>
       </div>
-    </div>
-    <div class="container-fluid">
-      <div class="row mt-90">
-        <div id="chaos-gallery" class="cbp">
-          <div class="cbp-item web col-md-6 col-sm-6">
-            <div class="portfolio gallery-image-hover text-left">
-              <div class="folio-overlay"></div>
-              <img src="assets/images/portfolio/grid/1.jpg" alt="">
-              <div class="portfolio-wrap">
-                <div class="portfolio-description">
-                  <h3 class="portfolio-title">Amazing Illustration</h3>
-                  <a href="single-portfolio.html" class="links">Web</a> </div>
-              </div>
-            </div>
-          </div>
-          <div class="cbp-item graphic col-md-3 col-sm-3">
-            <div class="portfolio gallery-image-hover text-left">
-              <div class="folio-overlay"></div>
-              <img src="assets/images/portfolio/grid/2.jpg" alt="">
-              <div class="portfolio-wrap">
-                <div class="portfolio-description">
-                  <h3 class="portfolio-title">Flyer Design</h3>
-                  <a href="single-portfolio.html" class="links">Graphics</a> </div>
-              </div>
-            </div>
-          </div>
-          <div class="cbp-item wordpress development col-md-3 col-sm-3">
-            <div class="portfolio gallery-image-hover text-left">
-              <div class="folio-overlay"></div>
-              <img src="assets/images/portfolio/grid/3.jpg" alt="">
-              <div class="portfolio-wrap">
-                <div class="portfolio-description">
-                  <h3 class="portfolio-title">Dafur Dagegen</h3>
-                  <a href="single-portfolio.html" class="links">Brand</a> </div>
-              </div>
-            </div>
-          </div>
-          <div class="cbp-item graphic col-md-6 col-sm-6">
-            <div class="portfolio gallery-image-hover text-left">
-              <div class="folio-overlay"></div>
-              <img src="assets/images/portfolio/grid/4.jpg" alt="">
-              <div class="portfolio-wrap">
-                <div class="portfolio-description">
-                  <h3 class="portfolio-title">Motherland's Cars</h3>
-                  <a href="single-portfolio.html" class="links">Graphics</a> </div>
-              </div>
-            </div>
-          </div>
-          <div class="cbp-item photography col-md-3 col-sm-3">
-            <div class="portfolio gallery-image-hover text-left">
-              <div class="folio-overlay"></div>
-              <img src="assets/images/portfolio/grid/5.jpg" alt="">
-              <div class="portfolio-wrap">
-                <div class="portfolio-description">
-                  <h3 class="portfolio-title">T-shirt Design</h3>
-                  <a href="single-portfolio.html" class="links">Wordpress</a> </div>
-              </div>
-            </div>
-          </div>
-          <div class="cbp-item graphic col-md-3 col-sm-3">
-            <div class="portfolio gallery-image-hover text-left">
-              <div class="folio-overlay"></div>
-              <img src="assets/images/portfolio/grid/6.jpg" alt="">
-              <div class="portfolio-wrap">
-                <div class="portfolio-description">
-                  <h3 class="portfolio-title">Business Cards</h3>
-                  <a href="single-portfolio.html" class="links">Graphics</a> </div>
-              </div>
-            </div>
-          </div>
-          
-          <div class="cbp-item photography col-md-6 col-sm-6">
-            <div class="portfolio gallery-image-hover text-left">
-              <div class="folio-overlay"></div>
-              <img src="assets/images/portfolio/grid/8.jpg" alt="">
-              <div class="portfolio-wrap">
-                <div class="portfolio-description">
-                  <h3 class="portfolio-title">Nrmal</h3>
-                  <a href="single-portfolio.html" class="links">Photography</a> </div>
-              </div>
-            </div>
-          </div>
-          
-          <div class="cbp-item web col-md-3 col-sm-3">
-            <div class="portfolio gallery-image-hover text-left">
-              <div class="folio-overlay"></div>
-              <img src="assets/images/portfolio/grid/7.jpg" alt="">
-              <div class="portfolio-wrap">
-                <div class="portfolio-description">
-                  <h3 class="portfolio-title">Ooey Dewy</h3>
-                  <a href="single-portfolio.html" class="links">Web</a> </div>
-              </div>
-            </div>
-          </div>
-          
+      
+      <div class="row mt-50">
+       
+        <div class="col-md-6 col-sm-6 col-md-push-6">
+        	<div class="row single-portfolio pt-60 pb-60">
+        		<div class="col-md-4 col-sm-4 col-md-push-8">
+        			<h1>02</h1>
+        		</div>
+        		<div class="col-md-8 col-sm-8 text-left col-md-pull-4">
+        			<div class="single-portfolio-title-left">
+       				  <h2>Your Profile Title</h2>
+        			</div>
+       			  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus nibh. Donec facilisis id quam quis tincidunt. Aenean eget mattis ligula. Ut dignissim justo sed neque eleifend, eu fringilla magna facilisis.</p>
+				</div>
+       			
+        	</div>
         </div>
+        
+        <div class="col-md-6 col-sm-6 single-portfolio col-md-pull-6">
+   	    	<img class="img-responsive" src="assets/images/portfolio/grid/17.jpg" alt="creative-img-02"/> 
+   	    </div>
+        
       </div>
+      
+      <div class="row mt-50">
+        <div class="col-md-6 col-sm-6">
+        	<div class="row single-portfolio pt-60 pb-60">
+        		<div class="col-md-4 col-sm-4">
+        			<h1>03</h1>
+        		</div>
+        		<div class="col-md-8 col-sm-8 text-right">
+        			<div class="single-portfolio-title-right">
+       				  <h2>Your Profile Title</h2>
+        			</div>
+       			  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed purus nibh. Donec facilisis id quam quis tincidunt. Aenean eget mattis ligula. Ut dignissim justo sed neque eleifend, eu fringilla magna facilisis.</p>
+				</div>
+        	</div>
+        </div>
+        <div class="col-md-6 col-sm-6 single-portfolio">
+   	    	<img class="img-responsive" src="assets/images/portfolio/grid/18.jpg" alt="creative-img-03"/> 
+   	    </div>
+      </div>
+      
     </div>
   </section>
   
   <!--=== Portfolio End ===-->
   
   <!--=== Our Services Start ===-->
-  <section>
-  	<div class="hexagon-gradient-left shapes" data-opacity="0.3"></div>
-  	<div class="triangle-light-blue shapes" data-opacity="0.2"></div>
+  <section class="pt-0">
   	<div class="container">
   		<div class="row">
-  			<div class="col-md-12 heading-style-two text-center">
-  				<h2 class="font-700"><span>Our Services</span></h2>
+  			<div class="col-md-12 heading-style-one text-center">
+  				<h6 class="pink-color text-uppercase">Why Choose Us</h6>
+                <h2><span class="font-700">We are digital specialists. It's all we do</span></h2>
   			</div>
   		</div>
   		<div class="row mt-50">
-  			<div class="col-md-4 main-service-box text-center col-sm-6">
-  				<i class="mdi mdi-laptop default-color"></i>
+  			<div class="col-md-4 main-service-box text-center radius-50 col-sm-6">
+  				<i class="mdi mdi-laptop purple-color"></i>
   				<h4>Responsive</h4>
   				<p>Integer purus ipsum, auctor vitae posuere et, consectetur ac leo. Pellentesque sit amet risus sagittis, fermentum ligula.</p>
   			</div>
-  			<div class="col-md-4 main-service-box text-center col-sm-6">
+  			<div class="col-md-4 main-service-box text-center radius-50 col-sm-6">
   				<i class="mdi mdi-rocket default-color"></i>
   				<h4>Amazing Design</h4>
   				<p>Integer purus ipsum, auctor vitae posuere et, consectetur ac leo. Pellentesque sit amet risus sagittis, fermentum ligula.</p>
   			</div>
-  			<div class="col-md-4 main-service-box text-center col-sm-6">
-  				<i class="mdi mdi-tune default-color"></i>
+  			<div class="col-md-4 main-service-box text-center radius-50 col-sm-6">
+  				<i class="mdi mdi-tune blue-color"></i>
   				<h4>Easy to Customize</h4>
   				<p>Integer purus ipsum, auctor vitae posuere et, consectetur ac leo. Pellentesque sit amet risus sagittis, fermentum ligula.</p>
   			</div>
-  			<div class="col-md-4 main-service-box text-center col-sm-6">
-  				<i class="mdi mdi-wechat default-color"></i>
+  			<div class="col-md-4 main-service-box text-center radius-50 col-sm-6">
+  				<i class="mdi mdi-wechat green-color"></i>
   				<h4>Live Support</h4>
   				<p>Integer purus ipsum, auctor vitae posuere et, consectetur ac leo. Pellentesque sit amet risus sagittis, fermentum ligula.</p>
   			</div>
-  			<div class="col-md-4 main-service-box text-center col-sm-6">
-  				<i class="mdi mdi-ungroup default-color"></i>
+  			<div class="col-md-4 main-service-box text-center radius-50 col-sm-6">
+  				<i class="mdi mdi-ungroup yellow-color"></i>
   				<h4>Pixel Perfect</h4>
   				<p>Integer purus ipsum, auctor vitae posuere et, consectetur ac leo. Pellentesque sit amet risus sagittis, fermentum ligula.</p>
   			</div>
-  			<div class="col-md-4 main-service-box text-center col-sm-6">
-  				<i class="mdi mdi-trophy default-color"></i>
+  			<div class="col-md-4 main-service-box text-center radius-50 col-sm-6">
+  				<i class="mdi mdi-trophy brown-color"></i>
   				<h4>Award Winning</h4>
   				<p>Integer purus ipsum, auctor vitae posuere et, consectetur ac leo. Pellentesque sit amet risus sagittis, fermentum ligula.</p>
   			</div>
   		</div>
+  		<div class="row">
+    		<div class="col-md-12"><div class="triangle-light-blue-big shapes" data-opacity="0.15"></div></div>
+     	</div>
   	</div>
   	
   </section>
   <!--=== Our Services End ===-->
   
-  <!--=== Video Start ===-->
-  <section class="parallax-bg fixed-bg pt-200 pb-200" style="background-image: url(assets/images/background/parallax-bg.jpg);">
-  	<div class="gradient-overlay"></div>
-  	<div class="container">
-  		<div class="row">
-  			<div class="col-md-2 col-md-offset-5">
-  				<div class="center-layout">
-                <div class="v-align-middle"> <a class="popup-youtube" href="https://www.youtube.com/watch?v=sU3FkzUKHXU">
-                  <div class="play-button"><i class="eicon mdi mdi-play"></i> </div>
-                  </a> </div>
-              </div>
-  			</div>
-  		</div>
-  	</div>
+  <!--=== What We Do Start ===-->
+  <section class="pt-0 pb-0">
+  	<div class="container-fluid">
+      <div class="row row-flex flex-center">
+        <div class="col-md-6 col-sm-12">
+          <div class="col-inner pt-70 pb-50 spacer border-block">
+          	<div class="heading-style-one">
+            	<h6 class="green-color text-uppercase">What We Do</h6>
+                <h2><span class="font-700">How we build awesome<br>
+				products</span></h2>
+            </div>
+            <div class="mt-30">
+              <p>We are an Creative agency, based in New York. Vision Every company is<br>
+                performing best online. Mission Helping businesses to find the perfect<br>
+                and most succesful strategy, to be online.</p>
+                <div class="inline-btn mt-30"><a href="https://www.youtube.com/watch?v=sU3FkzUKHXU" class="btn btn-sm btn-circle btn-green ml-0 popup-youtube btn-animated-none"><i class="mdi mdi-play"></i></a>
+            		<p>See Our Work</p>
+          		</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 bg-flex-cover" style="background-image: url(assets/images/about-img.jpg);"> 
+        </div>
+      </div>
+      
+    </div>
   </section>
-  <!--=== Video End ===-->
+  <!--=== What We Do End ===-->
   
-  <!--=== Our Team Start ===-->
+  
+  <!--=== Testimonails Start ===-->
   <section>
     <div class="container">
       <div class="row">
-  			<div class="col-md-12 heading-style-two text-center">
-  				<h2 class="font-700"><span>Our Team</span></h2>
+  			<div class="col-md-12 heading-style-one text-center">
+  				<h6 class="yellow-color text-uppercase">Testimonials</h6>
+                <h2><span class="font-700">Our Clients Saying About Us</span></h2>
   			</div>
   		</div>
       <div class="row mt-50">
-        <div class="col-md-3 col-sm-6 col-xs-12">
-          <div class="team-member-container gallery-image-hover"> <img src="assets/images/team/team-01.jpg" class="img-responsive" alt="team-01">
-            <div class="member-caption">
-              <div class="member-description">
-                <div class="member-description-wrap">
-                  <h4 class="member-title">James Brewer</h4>
-                  <p class="member-subtitle">Digital Designer</p>
-                  <ul class="member-icons">
-                    <li class="social-icon"><a href="#"><i class="mdi mdi-facebook"></i></a></li>
-                    <li class="social-icon"><a href="#"><i class="mdi mdi-twitter"></i></a></li>
-                    <li class="social-icon"><a href="#"><i class="mdi mdi-google-plus"></i></a></li>
-                    <li class="social-icon"><a href="#"><i class="mdi mdi-linkedin"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--=== Member End ===-->
-        <div class="col-md-3 col-sm-6 col-xs-12">
-          <div class="team-member-container gallery-image-hover"> <img src="assets/images/team/team-02.jpg" class="img-responsive" alt="team-02">
-            <div class="member-caption">
-              <div class="member-description">
-                <div class="member-description-wrap">
-                  <h4 class="member-title">Mesha Albert</h4>
-                  <p class="member-subtitle">Senior User Interface</p>
-                  <ul class="member-icons">
-                    <li class="social-icon"><a href="#"><i class="mdi mdi-facebook"></i></a></li>
-                    <li class="social-icon"><a href="#"><i class="mdi mdi-twitter"></i></a></li>
-                    <li class="social-icon"><a href="#"><i class="mdi mdi-google-plus"></i></a></li>
-                    <li class="social-icon"><a href="#"><i class="mdi mdi-linkedin"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--=== Member End ===-->
-        <div class="col-md-3 col-sm-6 col-xs-12">
-          <div class="team-member-container gallery-image-hover"> <img src="assets/images/team/team-03.jpg" class="img-responsive" alt="team-03">
-            <div class="member-caption">
-              <div class="member-description">
-                <div class="member-description-wrap">
-                  <h4 class="member-title">Arthur Stewart</h4>
-                  <p class="member-subtitle">Founder & CEO</p>
-                  <ul class="member-icons">
-                    <li class="social-icon"><a href="#"><i class="mdi mdi-facebook"></i></a></li>
-                    <li class="social-icon"><a href="#"><i class="mdi mdi-twitter"></i></a></li>
-                    <li class="social-icon"><a href="#"><i class="mdi mdi-google-plus"></i></a></li>
-                    <li class="social-icon"><a href="#"><i class="mdi mdi-linkedin"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--=== Member End ===-->
-        <div class="col-md-3 col-sm-6 col-xs-12">
-          <div class="team-member-container gallery-image-hover"> <img src="assets/images/team/team-04.jpg" class="img-responsive" alt="team-04">
-            <div class="member-caption">
-              <div class="member-description">
-                <div class="member-description-wrap">
-                  <h4 class="member-title">Eden Charles</h4>
-                  <p class="member-subtitle">Art Director</p>
-                  <ul class="member-icons">
-                    <li class="social-icon"><a href="#"><i class="mdi mdi-facebook"></i></a></li>
-                    <li class="social-icon"><a href="#"><i class="mdi mdi-twitter"></i></a></li>
-                    <li class="social-icon"><a href="#"><i class="mdi mdi-google-plus"></i></a></li>
-                    <li class="social-icon"><a href="#"><i class="mdi mdi-linkedin"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--=== Member End ===--> 
-      </div>
-    </div>
-  </section>
-  <!--=== Our Team End ===--> 
-  
-   
-  
-  <!--=== Testimonails Start ===-->
-  <section class="parallax-bg fixed-bg" data-stellar-background-ratio="0.2" style="background-image: url(assets/images/background/pattern-parallax.jpg);">
-    <div class="container">
-      <div class="row">
-  			<div class="col-md-12 heading-style-two text-center">
-  				<h2 class="font-700"><span>Our Testimonials</span></h2>
-  			</div>
-  		</div>
-      <div class="row mt-60">
         
-          <div class="slick testimonial"> 
+          <div class="slick testimonial-two"> 
            	
 				<!--=== Slide ===-->
 				<div class="testimonial-item">
 			  		<div class="col-md-12">
 					  <div class="testimonial-content"> 
-					  	<div class="testimonial-content-in">
+					  	<div class="testimonial-content-in radius-50">
 						  <div class="img">
-						  <img class="img-responsive img-circle" src="assets/images/team/avatar-4.jpg" alt="avatar-4"/>
+						  	<img class="img-responsive img-circle" src="assets/images/team/avatar-4.jpg" alt="avatar-1"/>
 						  </div>
 							<h5>Melina Walber</h5>
 							<h6>manager@chaos.io</h6>
@@ -519,9 +384,10 @@
 				<div class="testimonial-item">
 			  		<div class="col-md-12">
 					  <div class="testimonial-content">
-					  <div class="testimonial-content-in">
-						 <div class="img"> <img class="img-responsive img-circle" src="assets/images/team/avatar-5.jpg" alt="avatar-5"/>
-						 </div>
+					  <div class="testimonial-content-in radius-50">
+					  	<div class="img">
+						  <img class="img-responsive img-circle" src="assets/images/team/avatar-5.jpg" alt="avatar-2"/>
+						</div>  
 							<h5>Doris Campos</h5>
 							<h6>founder@chaos.io</h6>
 							<p>Mauris aliquam risus id dui elementum accumsan. Cum sociis natoque penatibus et magnis dis parturient montes mus.</p>
@@ -535,9 +401,10 @@
 				<div class="testimonial-item">
 			  		<div class="col-md-12">
 					  <div class="testimonial-content"> 
-					  	<div class="testimonial-content-in">
-						 <div class="img"> <img class="img-responsive img-circle" src="assets/images/team/avatar-6.jpg" alt="avatar-6"/>
-						 </div>
+					  	<div class="testimonial-content-in radius-50">
+						  <div class="img">
+						  	<img class="img-responsive img-circle" src="assets/images/team/avatar-6.jpg" alt="avatar-2"/>
+							</div> 
 							<h5>Melina Walber</h5>
 							<h6>manager@chaos.io</h6>
 							<p>Mauris aliquam risus id dui elementum accumsan. Cum sociis natoque penatibus et magnis dis parturient montes mus.</p>
@@ -549,9 +416,10 @@
 				<div class="testimonial-item">
 			  		<div class="col-md-12">
 					  <div class="testimonial-content">
-					  <div class="testimonial-content-in">
-						  <div class="img"><img class="img-responsive img-circle" src="assets/images/team/avatar-1.jpg" alt="avatar-1"/>
-						  </div>
+					  <div class="testimonial-content-in radius-50">
+						 <div class="img">
+						  <img class="img-responsive img-circle" src="assets/images/team/avatar-4.jpg" alt="avatar-2"/>
+						</div> 
 							<h5>Doris Campos</h5>
 							<h6>founder@chaos.io</h6>
 							<p>Mauris aliquam risus id dui elementum accumsan. Cum sociis natoque penatibus et magnis dis parturient montes mus.</p>
@@ -563,18 +431,29 @@
           </div>
         
       </div>
+      <div class="row">
+    		<div class="col-md-12">
+    			<div class="triangle-yellow-big hidden-xs" data-opacity="0.1"></div>
+    		</div>
+     </div>
     </div>
   </section>
   <!--=== Testimonails End ===--> 
   
   <!--=== Blogs Start ===-->
-  <section class="pb-0">
-    <div class="polygon-box shapes" data-opacity="0.2"></div>
-  	<div class="circle-box shapes" data-opacity="0.2"></div>
+  <section class="pb-0 pt-0">
+
     <div class="container">
+     <div class="row">
+    		<div class="col-md-12">
+    			<div class="square-light-green-big shapes hidden-xs" data-opacity="0.1"></div>
+    		</div>
+     </div>
+    	
       <div class="row">
-  			<div class="col-md-12 heading-style-two text-center">
-  				<h2 class="font-700"><span>Our Blogs</span></h2>
+  			<div class="col-md-12 heading-style-one text-center">
+  				<h6 class="yellow-color text-uppercase">Our Blogs</h6>
+                <h2><span class="font-700">Check What Happening Inside Score</span></h2>
   			</div>
   		</div>
       <div class="row mt-50">
@@ -702,7 +581,7 @@
       </div>
     </div>
   </footer>
-  <!--=== Footer End ===--> 
+  <!--=== Footer End ===-->
   
 </div>
 <!--=== Wrapper End ===--> 
@@ -716,5 +595,5 @@
 
 </body>
 
-<!-- Mirrored from incognitothemes.com/chaos/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Aug 2018 05:01:30 GMT -->
+<!-- Mirrored from incognitothemes.com/chaos/home-design-lab.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Aug 2018 05:06:22 GMT -->
 </html>
